@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+
+
+.MuiPaper-root.MuiPopover-paper{
+    left: unset !important;
+    top: 289px !important;
+    right:152px !important
+}
+.MuiPickersYear-root{
+    cursor: pointer;
+    height: 36px !important;
+    display: inline-block !important;
+    /* outline: none; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 63px;
+    margin-left: 7px !important;
+    /* margin: 0 auto; */
+    margin-right: 7px !important;
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+.MuiPaper-root.MuiPopover-paper{
+    left: unset !important;
+    top: 55% !important;
+    right: 152px !important;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* .MuiPickersBasePicker-pickerView{
+    max-width:420px !important;
+} */
+.MuiPaper-root.MuiPopover-paper {
+    left: unset !important;
+    top: unset !important;
+    right: 125px !important;
+    bottom: 140px;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+.MuiPaper-root.MuiPopover-paper {
+    left: 18px !important;
+    top: 269px !important;
+    right: 0px !important;
+    width: 100%;
+}
+
+}

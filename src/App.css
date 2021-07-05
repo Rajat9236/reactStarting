@@ -1,0 +1,1088 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+#searchUnifyChat * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#searchUnifyChat .title {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: #ccc 2px 2px 1px;
+  padding-bottom: 5px;
+}
+
+#searchUnifyChat a:hover {
+  color: #fff;
+}
+
+/* #searchUnifyChat .first-section:hover {
+  cursor: pointer;
+} */
+
+#searchUnifyChat .open-more {
+  bottom: 0px;
+  transition: 2s;
+}
+
+#searchUnifyChat .close-more {
+  bottom: -350px;
+  transition: 2s;
+}
+
+#searchUnifyChat #searchUnifyChat .border-chat {
+  margin: 0px;
+}
+
+/* #searchUnifyChat .first-section {
+  width: 100%;
+  padding: 7px 14px;
+  height: 60px;
+  position: relative;
+  z-index: 5;
+  background-color: #6e99fa;
+  box-shadow: 0 3px 6px #00000029;
+} */
+#searchUnifyChat .left-section{		
+  background-color: #6e99fa;		 
+  box-shadow: 0 3px 6px #00000029;
+}
+/* #searchUnifyChat .first-section p {
+  margin-bottom: 0;
+} */
+
+/* #searchUnifyChat .text-bar input {
+  background-color: #fbfcff;
+  border: none;
+  height: auto;
+  width: 80%;
+  height: 57px;
+  padding: 13px 18px;
+  color: #999c9e;
+  font-weight: 500;
+  font-family: "Montserrat";
+  box-shadow: none;
+} */
+/* #searchUnifyChat #skip-img{
+  cursor: pointer;
+  height: 18px;
+  width:18px;
+} */
+/* #searchUnifyChat .start-over{
+  background-color: #fff;
+  text-align:center !important;
+  padding:5px;
+  cursor: pointer;
+} */
+/* #searchUnifyChat .start-over #start-img{
+  vertical-align: middle;
+  height: 18px;
+  width:18px;
+}
+#searchUnifyChat .start-over a:hover,#searchUnifyChat .start-over a{
+  color: rgb(153, 156, 158);
+} */
+/* #searchUnifyChat .start-over a:hover{
+  text-decoration: underline;
+} */
+
+/* #searchUnifyChat .text-bar input:focus {
+  outline: none;
+} */
+
+/* #searchUnifyChat div .chatting {
+  background-color: #fbfbfb;
+} */
+
+/* #searchUnifyChat a.btn-end {
+  border: none;
+} */
+
+/* #searchUnifyChat .first-section p {
+  color: #fff;
+  font-weight: 600;
+  margin: 0px;
+  font-size: 14px;
+} */
+
+#searchUnifyChat .right-first-section {
+  text-align: right;
+}
+
+#searchUnifyChat .right-first-section i {
+  color: #fff;
+  font-size: 15px;
+  padding: 12px 3px;
+}
+
+#searchUnifyChat .right-first-section i:hover {
+  color: #fff;
+}
+
+/* #searchUnifyChat .chat-section ul li {
+  list-style: none;
+  margin-top: 10px;
+  position: relative;
+} */
+
+/* #searchUnifyChat .chat-section {
+  overflow-y: scroll;
+  /* height: 330px; 
+  height:calc(100% - 29px);
+  padding: 10px 0 25px 0;
+  background-color: #fff;
+} 
+
+/* .chat-section ul {
+  padding: 0px;
+} */
+
+/* #searchUnifyChat .left-chat img,
+#searchUnifyChat .right-chat img {
+  width: 37px;
+  height: 37px;
+  float: left;
+  margin: 0px 10px;
+} */
+
+#searchUnifyChat .right-chat img {
+  float: right;
+}
+
+/* #searchUnifyChat .second-section {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f3f3f3;
+  height: 300px;
+} */
+
+/* #searchUnifyChat .left-chat,
+#searchUnifyChat .right-chat {
+  overflow: hidden;
+} */
+
+#searchUnifyChat .left-chat > div .carousel {
+  width: 95%;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+#searchUnifyChat .left-chat > div .active,
+#searchUnifyChat .left-chat > div .carousel-inner {
+  width: 100%;
+}
+
+/* #searchUnifyChat .left-chat div,
+#searchUnifyChat .right-chat p {
+  color: #000;
+  border-radius: 8px;
+  float: left;
+  margin-top: 0px;
+} */
+
+#searchUnifyChat .left-chat span {
+  top: 60px;
+}
+
+#searchUnifyChat .right-chat span {
+  position: absolute;
+  left: 70px;
+  top: 60px;
+  color: #8dd6ff;
+}
+
+#searchUnifyChat .carousel-control.left,
+#searchUnifyChat .carousel-control.right {
+  background-image: none;
+}
+
+#searchUnifyChat .right-chat span {
+  left: 45px;
+}
+
+#searchUnifyChat .contact-form-page div {
+  color: #999c9e;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* #searchUnifyChat .contact-form-page .button-msg {
+    margin: 10px  0 0 0;
+    width: 100%;
+} */
+
+/* #searchUnifyChat .right-chat .response {
+  line-height: 1.73;
+  background-color: #6e99fa;
+  float: right;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 20px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  margin-top: 12px;
+  word-break: break-word;
+} */
+
+/* #searchUnifyChat .text-bar a svg {
+  margin-right: 25px;
+} */
+
+/* #searchUnifyChat .chat div .party {
+  word-break: break-word;
+  background-color: #e9eef4;
+  border-radius: 12px;
+  line-height: 1.73;
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #999c9e;
+  border-radius: 20px;
+} */
+
+/* #searchUnifyChat .contact-form-page div .right-chat {
+  margin-right: 30px;
+  margin: 0px 20px;
+} */
+
+#searchUnifyChat .busy {
+  position: absolute;
+  padding: 3px 0;
+  color: #666;
+  display: none;
+  font-size: 11px;
+}
+
+#searchUnifyChat .input {
+  margin-top: 20px;
+}
+
+#searchUnifyChat .input input {
+  vertical-align: top;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 480px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+#searchUnifyChat .input a {
+  vertical-align: top;
+  float: right;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background-color: #efefef;
+  padding: 7px 35px;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#searchUnifyChat .input a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+#searchUnifyChat .contact-form-page {
+  height: 25px;
+  width: 25px;
+  display: block;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 55px;
+  right: 42px;
+  overflow: hidden;
+
+  font-family: "Montserrat";
+}
+
+#searchUnifyChat #load-img {
+  position: absolute;
+  bottom: 15%;
+  width: 48px;
+  right: 82%;
+}
+
+/* #searchUnifyChat .show-profile {
+  z-index: 300;
+  height: 450px;
+  display: block;
+  width: 450px;
+  bottom: 40px;
+  right: 22px;
+  position: fixed;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fbfbfb;
+  transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+} */
+
+/* #searchUnifyChat .third-section > div > a {
+  display: block;
+  float: right;
+  margin-top: 16px;
+} */
+
+/* #searchUnifyChat div.left-chat {
+  margin: 0px 40px;
+} */
+
+#searchUnifyChat .form-profile-img {
+  float: left;
+}
+
+#searchUnifyChat .form-profile-img img {
+  border-radius: 50%;
+  margin: 20px 0 0 14px;
+}
+
+#searchUnifyChat .top-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #98d1ec;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  opacity: 1;
+}
+
+#searchUnifyChat .top-btn:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background: #7ec6e7;
+  color: #fff;
+}
+
+#searchUnifyChat .header-btn,
+#searchUnifyChat .footer-btn a {
+  font-size: 20px;
+  color: #fff;
+  background: #3aa8db;
+  float: right;
+}
+
+#searchUnifyChat .form-head {
+  display: block;
+}
+
+#searchUnifyChat .cancel-btn-img {
+  position: relative;
+}
+
+#searchUnifyChat .footer-btn {
+  position: relative;
+}
+
+/* #searchUnifyChat .buttom-btn {
+  border-color: #09527e;
+  position: fixed;
+  bottom: 40px;
+  right: 22px;
+  color: #09527e;
+  padding: 12px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  opacity: 1;
+  border: 1px solid #000;
+  z-index: 100;
+  background: linear-gradient(to left, #55C7FF, #7886f7);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  display: block;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+} */
+
+#searchUnifyChat .buttom-btn i {
+  font-size: 30px;
+}
+
+#searchUnifyChat input.form-control {
+  height: 40px;
+  border-radius: 0;
+  outline: none;
+}
+
+#searchUnifyChat textarea.form-control {
+  height: 150px;
+  border-radius: 0;
+}
+
+#searchUnifyChat .contact-form-page form {
+  padding: 0 26px;
+}
+
+#searchUnifyChat .contact-form-page .submit-buttom {
+  padding: 10px 40px;
+  text-align: center;
+  display: block;
+  border-radius: 0;
+  background: #007bb5;
+  border: none;
+  border-bottom: 5px solid #005b85;
+  text-shadow: none;
+  box-shadow: none;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#searchUnifyChat .form-group label {
+  font-size: 14px;
+  color: #fff;
+}
+
+#searchUnifyChat .top-btn-show {
+  opacity: 1 !important;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#searchUnifyChat .buttom-btn-hide {
+  display: none;
+}
+#searchUnifyChat .top {
+  background-color: #09527e;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#searchUnifyChat .start_chat {
+  margin: 5% 31%;
+  width: 38%;
+}
+
+#searchUnifyChat a:hover,
+#searchUnifyChat a:focus {
+  color: #fff;
+}
+
+#searchUnifyChat .second-section {
+  background-color: #ababab70;
+  height: 330px;
+}
+
+#searchUnifyChat span.highlight {
+  color: #575757;
+}
+
+#searchUnifyChat input:focus {
+  outline-color: #2a6496;
+}
+
+#searchUnifyChat .carousel-control {
+  width: 5%;
+  height: 14%;
+  top: 40%;
+  margin: 0 25px;
+}
+
+#searchUnifyChat div > .item {
+  text-align: -webkit-center;
+}
+
+#searchUnifyChat div > .active {
+  margin-bottom: 0 !important;
+}
+#searchUnifyChat .links-div {
+  padding: 10px 0 0 0;
+  width: 250px;
+  height: 88px;
+  margin: 0 40px 0 5px;
+}
+
+#searchUnifyChat div > h6.summary-link {
+  border-radius: 0;
+  font-size: 10px;
+  line-height: 18px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  color: #575757;
+  font-weight: 400;
+  margin: 0;
+  height: 39px;
+  overflow-wrap: break-word;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+#searchUnifyChat .links-div > a {
+  text-decoration: none;
+  display: block;
+}
+
+#searchUnifyChat div > a > h1.title-link {
+  border-radius: 0;
+  padding: 0px 4px 0px 0px;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 18px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  width: 100%;
+  margin: 0;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1878f9;
+}
+
+#searchUnifyChat .party a {
+  color: #4981fd;
+}
+
+#searchUnifyChat .party a:hover,
+#searchUnifyChat .party a:focus {
+  color: #2a6496;
+}
+
+#searchUnifyChat .start_chat {
+  border-radius: 30px;
+  padding: 10px 8px;
+  background: #f48b00;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  height: 40px;
+  text-align: center;
+  border: 0;
+}
+
+.s#searchUnifyChat .slidercontainer .slide {
+  display: none;
+}
+
+#searchUnifyChat .slidercontainer img {
+  width: 50%;
+}
+
+#searchUnifyChat .slidercontainer {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+#searchUnifyChat .slidercontainer .left,
+#searchUnifyChat .slidercontainer .right {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  color: #575757;
+  background-color: #fff;
+  border-radius: 8px;
+  line-height: 0.14;
+  width: 25px;
+  height: 25px;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+#searchUnifyChat .slidercontainer .right {
+  right: 0%;
+  padding: 12px 0 0 7px;
+}
+
+#searchUnifyChat .slidercontainer .left {
+  left: 92%;
+  top: 10%;
+  padding: 11px 0 0px 7px;
+}
+
+#searchUnifyChat .slidercontainer a.left:hover,
+#searchUnifyChat .slidercontainer a.right:hover {
+  text-decoration: none;
+}
+
+#searchUnifyChat .slidercontainer .disable {
+  background-color: #7c7c7c;
+  pointer-events: none;
+}
+
+#searchUnifyChat .chatbot-heading {
+  font-size: 12px;
+  margin: 5px;
+}
+
+#searchUnifyChat .hyperlink-heading {
+  text-align: center;
+}
+
+#searchUnifyChat .hyperlink-button {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+.flatpickr-calendar.animate.arrowBottom.open{
+  position:fixed;
+  width:447px;
+   /*top:233px !important;
+    top: 278px !important;
+   left: 837px !important; */
+
+}
+.flatpickr-rContainer{
+  width:450px
+}
+.flatpickr-innerContainer .flatpickr-days{
+  width:450px;
+}
+.flatpickr-innerContainer .dayContainer{
+  max-width:450px;
+  width:450px;
+}
+#month_1{
+  display: none;
+  position: fixed;
+  bottom: 132px;
+  right: 22px;
+  width: 450px;
+  background: #fff;
+  box-shadow: 1px 0 0 #e6e6e6, -1px 0 0 #e6e6e6, 0 1px 0 #e6e6e6, 0 -1px 0 #e6e6e6, 0 3px 13px rgba(0,0,0,0.08);
+  border-radius: 5px;
+}
+.month li {
+  display: inline-block;
+    /* float: left; */
+    width: 24%;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 10px !important;
+    padding: 7px !important;
+    color:#000;
+    cursor:pointer;
+}
+#year_1{
+  display:none;
+}
+.month,.year{
+  overflow:hidden;
+  padding-left:0px;
+}
+li.year_li {
+  width: 23%;
+  display: inline-block;
+  /* float: left; */
+  padding:7px;
+  text-align:center;
+  cursor:pointer;
+}
+.datepicker.datepicker-dropdown {
+  width: 450px;
+  left: 835px;
+}
+.datepicker-years .table-condensed{
+  width: 424px;
+}
+#searchUnifyChat .chatbot-button-response {
+   width: auto; 
+  max-height: 85px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #E9EEF4;
+  font-size: 12px;
+  color: #575757;
+  padding: 0 14px;
+  margin: 0px 10px 10px 0px;
+  border: none;
+  min-height: 30px;
+}
+.skipped {
+  margin-left: 42px;
+  margin-bottom: 11px;
+  text-align: center !important;
+  width: fit-content;
+}
+#searchUnifyChat .chatbot-button-response:hover,
+#searchUnifyChat .chatbot-button-response:focus{
+  outline: 0;
+  background-image: linear-gradient(to left, #55c7ff, #7886f7);
+  color: #fff !important;
+  border:none;
+  background-repeat: no-repeat;
+  box-shadow: 1px -1px 10px 1px rgba(0, 0, 0, 0.04);
+}
+
+#searchUnifyChat .highlight {
+  background: none;
+}
+
+/* #searchUnifyChat .heading-chat {
+  margin: 14px 17px;
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+} */
+@media only screen and (min-width:768px) and (max-width:990px){
+  #month_1{
+    bottom: 129px;
+    /* top: 800px; */
+    right: 22px;
+    left: unset;
+  }
+  .datepicker.datepicker-dropdown{
+    left: 300px !important;
+    right: 38px;
+    top: 656px !important;
+  }
+  /* .flatpickr-calendar.animate.arrowBottom.open{
+    left:unset;
+    top:unset;
+  } */
+}
+@media only screen and (min-width:990px) and (max-width:1200px){
+  #month_1{
+    top: 531px;
+    right: 22px;
+    left: unset;
+  }
+  .datepicker.datepicker-dropdown{
+    left: 549px !important;
+    right: 38px;
+    width: 450px;
+    top: 393px !important;
+  }
+  /* .flatpickr-calendar.animate.arrowBottom.open{
+    left:unset;
+    top:unset;
+  } */
+}
+@media only screen and (min-width: 1300px) and (max-width: 1600px) {
+  #searchUnifyChat .slidercontainer .left,
+  #searchUnifyChat .slidercontainer .right {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	/* #searchUnifyChat .show-profile {
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+		right: 0;
+    border-radius: 0px;
+    z-index: 9999;
+  } */
+  /* #searchUnifyChat .buttom-btn{
+    bottom:80px;
+  } */
+	/* #searchUnifyChat .buttom-btn {
+
+    bottom: 90px;
+
+  } */
+  .flatpickr-innerContainer .flatpickr-days {
+    width: 342px !important;
+}
+  .flatpickr-rContainer {
+    width: 338px !important;
+}
+.flatpickr-calendar.animate.arrowBottom.open{
+  width: 93% !important;
+    bottom: 87px;
+    /* top: 379px !important; */
+    top: 180px !important;
+    
+}
+/* .lia-page{
+  overflow:hidden !important;
+} */
+	/* #searchUnifyChat .second-section {
+		height: calc(100vh - 120px);
+	}
+	#searchUnifyChat .chat-section {
+		height: calc(100vh - 220px);
+	}
+	#searchUnifyChat .text-bar a svg {
+		margin-top: 2px;
+  } */
+  #searchUnifyChat #month_1{
+    top: 320px;
+    left: 0;
+    width: 360px;
+    bottom:130px;
+  }
+  .datepicker-years .table-condensed {
+    width: 340px !important;
+  }
+   .datepicker.datepicker-dropdown {
+    width: 345px !important;
+    left: 8px !important;
+    top: 230px !important;
+
+}
+	/* #searchUnifyChat .third-section>div>a {
+		margin-top: 16px;
+		margin-right: 0px;
+	} */
+	#searchUnifyChat .chatbot-button-response {
+		padding: 10px 10px;
+	}
+	#searchUnifyChat .links-div {
+		width: 80%;
+		margin: 0 0 0 5px;
+	}
+	#searchUnifyChat .slidercontainer .right {
+		right: 1%;
+	}
+	#searchUnifyChat .slidercontainer .left {
+		left: 88%;
+	}
+	#searchUnifyChat .right-chat p,
+	#searchUnifyChat .chat div .party {
+		padding: 8px 18px;
+	}
+	#searchUnifyChat .slidercontainer .left,
+	#searchUnifyChat .slidercontainer .right {
+		width: 24px;
+		height: 24px;
+		font-size: 15px;
+	}
+	/* #searchUnifyChat .text-bar input {
+    height: 60px;
+    width:72%;
+	} */
+	/* #searchUnifyChat .third-section {
+		/* height: 60px; 
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	} */
+	#searchUnifyChat #load-img {
+		bottom: 8%;
+	}
+}
+
+/* @media only screen and (min-width: 1600px) {
+  #searchUnifyChat .show-profile {
+    height: 545px;
+  }
+  #searchUnifyChat .chat-section {
+    height: calc(100% - 29px);
+  }
+  #searchUnifyChat .second-section {
+    height: 430px;
+  }
+} */
+
+/* new styles added */
+/* #searchUnifyChat .left-img {
+  position: absolute;
+  padding: 3px 10px;
+  width: 38px;
+  height: 20px;
+  margin-top: 10px;
+} */
+
+/* #searchUnifyChat .contact-form-page div::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0px;
+}
+#searchUnifyChat .contact-form-page div::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+#searchUnifyChat .contact-form-page div::-webkit-scrollbar-track {
+  background-color: transparent;
+} */
+/* #searchUnifyChat .logo-bot {
+  vertical-align: middle;
+  margin-bottom: 3px;
+  width: 36px;
+  height: 32px;
+} */
+/* #searchUnifyChat .startChat{
+    background-image: url("https://trial.searchunify.com/bottest//resources/Assets/closeChat.svg");
+    padding: 14px 18px;
+    background-repeat: no-repeat;
+    margin: 5px 2px;
+} */
+/* #searchUnifyChat .third-section{
+    height: 60px;
+} */
+/* #searchUnifyChat .type-area>path{
+    fill: #999c9e;
+} */
+/* #searchUnifyChat .close-bot-icon{
+  width: 24px;
+  height: 24px;
+  float: right;
+  margin-top: 12px;
+} */
+
+#searchUnifyChat .chat-section::-webkit-scrollbar{width:0px;height:0px;background-color:transparent;}
+#searchUnifyChat .chat-section::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 0px rgba(0,0,0,0.3);background-color:transparent;;}
+#searchUnifyChat .chat-section::-webkit-scrollbar-thumb{border-radius:0px;background-color: transparent;}
+#searchUnifyChat .chat-section{scrollbar-width:thin;scrollbar-color:#497dbd transparent}
+
+#searchUnifyChat .chatbot-response-disable{
+  outline: 0; 
+  background-image: linear-gradient(to left, #55c7ff, #7886f7);
+  color: #fff !important;
+  border:none;
+  background-repeat: no-repeat;
+  box-shadow: 1px -1px 10px 1px rgba(0, 0, 0, 0.04);
+  max-height: 85px;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 0 14px;
+  margin: 0px 10px 10px 0px;
+  min-height: 30px;
+  cursor: not-allowed;
+}
+
+#searchUnifyChat .chat-leaving{
+  -webkit-transform: scale(.6); 
+  -webkit-transform: scale(.6); 
+  transform: scale(.4); 
+  opacity: 0; 
+}
+
+#searchUnifyChat .chat-enter-to,
+#searchUnifyChat .chat-leave-to{
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#searchUnifyChat .chatbot-links,
+#searchUnifyChat .chatbot-links:hover{
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 14px 5px;
+  /* background-color: #e9eef4; */
+  background-color: rgba(233,238,244,0.5);
+  margin: 0px 10px 10px 0px;
+  border-radius: 20px;
+  color: #6e99fa;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box;
+  line-height: 22px;
+  max-height: 54px;
+  min-height: 30px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#searchUnifyChat .chatbot-links:hover{
+  text-decoration: underline;
+  -ms-text-underline-position: under;
+  text-underline-position: under;
+}
+/* Disguise Loading new css added */
+#searchUnifyChat .load-section{
+  background-color: #f7f9fb;
+  box-shadow: 0 3px 6px #0000000d;
+}
+#searchUnifyChat .load-section .logo-bot{
+  display: inline-block;
+  background-color: #e9eef4;
+  border-radius: 4px;
+}
+#searchUnifyChat .load-section .loading-chat{
+  color: rgb(131, 51, 51); 
+  width: 250px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin-top: 8px;
+  height: 20px;
+  left: 10px;
+  border-radius: 10px;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: Gradient;
+  animation-timing-function: ease;
+  background: linear-gradient(90deg,#f1f7f8 20%,#dfe7ec 50%,#eee 80%);
+  background-size: 500px 100px;
+}
+#searchUnifyChat .loading div.party{
+  border-radius: 20px;
+  padding: 9px 20px;
+  width: 250px;
+  background: linear-gradient(90deg,#f1f7f8 20%,#dfe7ec 50%,#eee 80%);
+  animation: Gradient 3s ease infinite;
+  background-size: 500px 100px;
+}
+#searchUnifyChat .loading .load-msg .left-chat:nth-child(2) .party{
+  width: 125px
+}
+#searchUnifyChat .loading div.party:nth-child(3){
+  width: 80px
+}
+#searchUnifyChat .loading div.party:nth-child(4){
+  width: 150px
+}
+#searchUnifyChat .loading .right-chat .response{
+  background: linear-gradient(90deg,#f1f7f8 20%,#dfe7ec 50%,#eee 80%);
+  animation: Gradient 3s ease infinite;
+  background-size: 500px 100px;
+  width: 150px;
+  border-radius: 20px;
+  padding: 8px;
+  margin: 0px;
+}
+#searchUnifyChat .loading .load-msg{
+  margin: 27px 0px;
+}
+#searchUnifyChat .loading .right-chat:nth-child(2) .response{
+  width: 70px;
+}
+#searchUnifyChat .loading .left-chat,
+#searchUnifyChat .contact-form-page div .loading .right-chat{
+  margin: 10px 40px;
+}
+#searchUnifyChat .textLoad{
+  background-color: #f7f9fb;
+}
+iframe#launcher {
+  display: none;
+}
+
+
